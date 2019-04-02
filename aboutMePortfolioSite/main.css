@@ -1,0 +1,95 @@
+body {
+    background-color: lightsteelblue;
+}
+
+.container {
+    height: auto;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 15% auto 15%;
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "b b b b b b b b b b b b"
+    "i i i i i i i i i i i i"
+    "f f f f f f f f f f f f";  
+}
+
+div {
+    background-color: #fae1c9;
+    border-bottom: solid lightsteelblue;
+    border-width: 10px;
+    text-align: center;
+    color: gray;
+}
+
+.header {
+    grid-area: h;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.bio {
+    grid-area: b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.interests {
+    grid-area: i;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    grid-area: f;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+p {
+    text-align: left;
+    margin: 0;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.footerNote {
+    text-align: left;
+    margin: 0;
+    line-height: 50px; 
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 45px;
+    
+
+}
+
+.subTitle {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contactInfo {
+    text-align: left;
+    margin: 0;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
